@@ -1,0 +1,10 @@
+<launch>
+
+	<include file="$(find realsense2_camera)/launch/rs_aligned_depth.launch">
+	</include>
+  	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find ggcnn)/rviz/ggcnn.rviz" />
+	<node name="yolo_v4" pkg="yolo_v4" type="detectvideo.py" output="screen"/>
+	<node name="ggcnn" pkg="ggcnn" type="ggcnn_torch.py" output="screen"/> 
+	<node name="plot_result" pkg="ggcnn" type="plot_result.py" output="screen"/> 
+
+</launch>

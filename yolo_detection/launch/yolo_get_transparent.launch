@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+    <!--<node name="get_image_from_rs_d435i" pkg="get_rs_image" type="Get_Image.py" output="screen">
+    </node> -->
+    <arg name="network_param_file"         default="$(find darknet_ros)/config/yolov4_transparent.yaml"/>
+    <!-- Include main launch file -->
+    <include file="$(find darknet_ros)/launch/darknet_ros.launch">
+    <arg name="network_param_file"    value="$(arg network_param_file)"/>
+    </include>
+
+    <!--<node name="get_image" pkg="get_rs_image" type="Get_Image.py"  /> -->
+    <node name="yolo_boundingboxes" pkg="yolo_detection" type="yolo_get_test.py"  output="screen" />  <!--output="screen"-->
+</launch>

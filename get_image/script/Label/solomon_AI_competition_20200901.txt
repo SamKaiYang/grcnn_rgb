@@ -1,0 +1,105 @@
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_13.jpg 280,158,333,328,0 307,84,359,221,1 368,214,438,336,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_35.jpg 536,107,638,181,0 367,211,468,328,1 507,310,613,432,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_5.jpg 330,40,409,204,0 300,190,416,293,1 472,11,546,142,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_2.jpg 360,97,463,219,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_3.jpg 506,173,564,341,0 394,1,533,44,1 425,173,561,208,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_1.jpg 379,216,492,324,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_8.jpg 295,20,362,198,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_18.jpg 493,3,546,180,0 502,235,557,369,1 276,133,326,265,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_10.jpg 445,55,555,211,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_25.jpg 311,2,418,122,0 513,56,575,198,1 323,256,460,303,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_4.jpg 321,60,380,195,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_40.jpg 423,300,555,455,0 425,122,476,259,1 566,149,637,244,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_2.jpg 346,327,521,378,0 285,89,371,229,1 404,1,524,95,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_37.jpg 422,131,586,200,0 376,234,462,368,1 303,88,395,214,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_13.jpg 447,236,546,350,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_8.jpg 442,154,552,275,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_24.jpg 410,118,555,251,0 388,24,521,76,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_20.jpg 287,186,455,241,0 286,83,426,146,1 285,150,417,187,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_5.jpg 357,206,490,249,2 317,274,489,338,0 360,370,497,428,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_11.jpg 319,127,460,190,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_3.jpg 316,301,448,348,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_12.jpg 316,199,479,286,0 366,27,505,100,1 336,106,463,185,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_3.jpg 343,177,476,317,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_3.jpg 320,202,495,254,0 350,90,487,147,1 371,48,501,94,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_5.jpg 295,195,410,294,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_15.jpg 372,294,418,430,2 417,256,469,429,0 327,291,375,432,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_38.jpg 410,34,523,158,1 534,2,570,28,0 339,32,414,152,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_15.jpg 284,109,368,238,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_32.jpg 388,222,552,322,0 627,91,639,166,1 508,229,603,350,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_9.jpg 336,174,469,228,2 340,100,506,157,0 331,23,472,74,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_34.jpg 486,70,615,180,1 370,242,474,360,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_8.jpg 304,285,435,341,2 294,2,429,138,0 415,213,562,292,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_16.jpg 472,178,558,306,1 444,228,565,388,0 324,285,436,395,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_12.jpg 371,140,503,192,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_21.jpg 399,82,526,172,2 299,189,460,282,0 285,24,335,163,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_9.jpg 441,2,496,137,1 489,195,555,364,0 287,199,365,329,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_17.jpg 377,133,509,189,2 336,177,509,227,0 364,221,504,273,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_33.jpg 519,89,608,224,1 349,179,448,294,2 523,349,638,441,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_14.jpg 404,350,541,403,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_7.jpg 377,21,510,83,2 335,73,508,128,0 373,127,515,174,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_14.jpg 492,2,544,121,1 299,161,456,257,0 368,42,498,127,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_9.jpg 280,105,357,241,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_7.jpg 349,68,486,142,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_4.jpg 448,225,562,348,1 434,72,501,207,2 275,1,448,52,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_30.jpg 455,77,634,135,0 556,178,637,243,1 555,254,638,319,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_9.jpg 402,331,538,400,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_13.jpg 280,173,331,340,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_10.jpg 306,288,436,349,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_14.jpg 444,204,530,367,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_11.jpg 307,264,452,386,0 286,151,363,284,1 405,333,524,429,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_39.jpg 332,78,487,183,0 553,110,638,171,1 612,343,638,397,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_9.jpg 275,197,448,262,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_14.jpg 371,222,497,331,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_20.jpg 291,281,445,397,0 366,82,421,219,1 401,136,512,246,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_1.jpg 275,91,342,260,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_1.jpg 495,18,551,180,0 482,170,560,309,1 299,24,366,160,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_10.jpg 300,2,380,171,0 495,184,548,319,1 288,199,363,326,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_16.jpg 383,283,565,331,0 422,329,562,379,1 428,236,563,279,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_8.jpg 358,58,462,178,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_15.jpg 323,193,373,324,2 412,8,458,175,0 492,1,541,120,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_1.jpg 500,204,551,341,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_7.jpg 302,244,463,336,0 411,1,544,51,1 320,8,446,88,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_6.jpg 353,131,485,175,2 297,191,465,256,0 325,314,458,372,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_7.jpg 378,322,509,364,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_6.jpg 416,252,487,389,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_13.jpg 313,294,437,406,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_29.jpg 275,173,446,260,0 472,106,600,212,1 450,302,590,364,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_10.jpg 308,199,426,305,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_15.jpg 335,332,504,404,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_2.jpg 331,342,504,396,0 349,244,486,302,1 344,161,474,208,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_31.jpg 476,287,611,339,2 350,223,456,369,0 473,195,606,293,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_14.jpg 293,112,459,162,0 294,19,429,68,1 292,67,420,109,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_4.jpg 369,44,500,94,2 317,210,485,300,0 399,131,540,179,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_8.jpg 359,265,524,325,0 345,69,482,148,1 356,350,491,394,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_6.jpg 442,180,547,291,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_6.jpg 356,47,410,219,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_12.jpg 287,15,461,66,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_28.jpg 428,272,610,325,0 501,85,639,142,1 299,98,354,229,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_19.jpg 286,181,405,276,2 352,3,514,76,0 501,103,547,239,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_5.jpg 288,229,422,372,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_4.jpg 497,57,550,227,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_3.jpg 410,55,545,109,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_7.jpg 392,294,548,395,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_13.jpg 292,234,456,290,0 287,119,424,174,1 282,183,415,234,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_4.jpg 282,96,344,239,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_2.jpg 501,224,554,397,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_18.jpg 338,235,498,341,0 395,282,523,374,1 343,185,458,285,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_10.jpg 390,159,557,219,0 396,19,537,70,1 411,254,544,307,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_12.jpg 396,280,521,379,2 365,168,518,295,0 436,70,550,193,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_36.jpg 505,317,639,416,0 383,179,505,285,1 501,84,639,185,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_11.jpg 284,20,332,159,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_1.jpg 347,101,477,149,2 331,307,502,357,0 345,202,481,251,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_11_41__juice_2.jpg 371,273,490,374,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_22.jpg 269,65,399,123,2 349,57,498,165,0 480,305,579,440,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_08_21__soda_11.jpg 319,289,485,340,0
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_15.jpg 478,120,555,259,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_11.jpg 287,12,340,190,0 377,1,514,38,1 388,36,524,106,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_13_13__three_objects_2_19.jpg 353,261,521,317,0 368,126,494,215,1 359,215,490,253,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_6.jpg 497,50,545,185,2 496,226,553,401,0 304,105,396,229,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_27.jpg 498,2,549,129,0 378,2,443,64,1 279,266,412,313,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_17.jpg 338,201,438,359,0 485,76,550,215,1 275,45,399,137,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_12.jpg 336,15,471,86,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_12_10_06__coffee_5.jpg 417,264,551,338,1
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_26.jpg 315,93,420,221,1 506,165,570,335,0 295,325,428,387,2
+/home/luca-ubuntu16/realsense_ws/src/get_image/script/Training_Data/solomon_AI_competition_2020/2020-09-01_11_14_04__three_objects_23.jpg 453,101,557,220,2 364,269,485,369,1 529,3,588,153,0
