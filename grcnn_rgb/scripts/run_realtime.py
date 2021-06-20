@@ -19,6 +19,7 @@ from grcnn_rgb.msg import GGCNN_Grasp
 from grcnn_rgb.msg import GGCNN_Grasp_array
 from ggcnn.msg import ROI
 from ggcnn.msg import ROI_array
+
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
 

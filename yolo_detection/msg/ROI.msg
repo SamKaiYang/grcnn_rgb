@@ -1,5 +1,6 @@
-float64 probability
 string object_name
-int16 id
-float64 x
-float64 y
+float32 score
+int32 min_x
+int32 Max_x
+int32 min_y
+int32 Max_y

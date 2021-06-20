@@ -1,0 +1,8 @@
+# darknet
+darknet_ros
+
+.vscode
+
+# grcnn 訓練結果資料
+grcnn_rgb/scripts/logs
+ggcnn/scripts/models

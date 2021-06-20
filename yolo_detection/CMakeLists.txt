@@ -52,7 +52,6 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    ROI.msg
    ROI_array.msg
-   depth_alert.msg
  )
 
 ## Generate services in the 'srv' folder

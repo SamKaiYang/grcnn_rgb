@@ -15,7 +15,7 @@ import enum
 from darknet_ros_msgs.msg import BoundingBox
 from darknet_ros_msgs.msg import BoundingBoxes
 from yolo_detection.msg import ROI_array
-from yolo_detection.msg import ROI2
+from yolo_detection.msg import ROI
 import time
 #import cv2
 from std_msgs.msg import String
@@ -61,7 +61,7 @@ def Yolo_callback(data):
             # center_x  = (boxes.xmax+boxes.xmin)/2
             # center_y  = (boxes.ymax+boxes.ymin)/2
 
-            ROI_data = ROI2()
+            ROI_data = ROI()
             ROI_data.score = boxes.probability
             ROI_data.object_name= boxes.Class_name
             # ROI_data.id = boxes.id_name
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     rate = rospy.Rate(10) # 10hz
     rospy.Subscriber("/darknet_ros/bounding_boxes",BoundingBoxes,Yolo_callback)
     #pub = rospy.Publisher("obj_position", ROI, queue_size=10)
-    pub = rospy.Publisher("/object/ROI_array", ROI_array, queue_size=10)
+    pub = rospy.Publisher("/object/ROI_array", ROI_array, queue_size=100)
     while not rospy.is_shutdown():
         # print("ID:",boxes.id_name)
         # print("信心值:",boxes.probability)
