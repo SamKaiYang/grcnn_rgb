@@ -33,7 +33,8 @@ rgb_bridge = CvBridge()
 depth_bridge = CvBridge()
 
 curr_yolo = ROI() 
-curr_yolo_list = ROI_array()
+curr_yolo_list = []
+# curr_yolo_list = ROI_array()
 
 def rgb_image_raw_callback(msg):
     global rgb_image_raw
@@ -136,7 +137,7 @@ if __name__ == '__main__':
                     pub_Grasp_array = GGCNN_Grasp_array()
                     pub_Grasp.object_name = "no match"
                     # print("curr_yolo_list ", curr_yolo_list)
-                    if curr_yolo_list:
+                    if len(curr_yolo_list)> 0:
                         for i in range(len(curr_yolo_list)):
                             curr_yolo.min_x = curr_yolo_list[i].min_x
                             curr_yolo.Max_x = curr_yolo_list[i].Max_x

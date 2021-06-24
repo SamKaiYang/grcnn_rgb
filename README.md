@@ -21,4 +21,7 @@ terminal 3
 source venv/bin/activate
 rosrun grcnn_rgb run_realtime.py 
 ```
-# K-means
+# K-means 夾取工具選擇
+```bash
+rosrun grcnn_rgb kmeans.py 
+```
