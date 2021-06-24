@@ -52,7 +52,7 @@ def depth_img_callback(msg):
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Evaluate network')
-    parser.add_argument('--network', type=str, default=here + '/logs/210617_2256_training_cornell/epoch_20_iou_0.92',
+    parser.add_argument('--network', type=str, default=here + '/logs/210621_2154_training_cornell_0_12/epoch_20_iou_1.00',
                         help='Path to saved network to evaluate')
     parser.add_argument('--use-depth', type=int, default=1,
                         help='Use Depth image for evaluation (1/0)')
@@ -63,7 +63,8 @@ def parse_args():
     parser.add_argument('--cpu', dest='force_cpu', action='store_true', default=False,
                         help='Force code to run in CPU mode')
 
-    args = parser.parse_args()
+    # args = parser.parse_args()
+    args, unknown = parser.parse_known_args()
     return args
 
 def get_RegionYOLO(ROI_array):
@@ -128,13 +129,13 @@ if __name__ == '__main__':
                     grasp_length = gs[0].length
                     grasp_width = gs[0].width
 
-                    # print("center: {} , angle: {} , length: {} , width: {} "\
-                    #     .format((grasp_x, grasp_y), grasp_angle, grasp_length, grasp_width))
+                    print("center: {} , angle: {} , length: {} , width: {} "\
+                        .format((grasp_x, grasp_y), grasp_angle, grasp_length, grasp_width))
                     
                     pub_Grasp = GGCNN_Grasp()
                     pub_Grasp_array = GGCNN_Grasp_array()
                     pub_Grasp.object_name = "no match"
-                    print("curr_yolo_list ", curr_yolo_list)
+                    # print("curr_yolo_list ", curr_yolo_list)
                     if curr_yolo_list:
                         for i in range(len(curr_yolo_list)):
                             curr_yolo.min_x = curr_yolo_list[i].min_x
@@ -147,12 +148,16 @@ if __name__ == '__main__':
                             if curr_yolo.min_x <= grasp_x <=curr_yolo.Max_x and curr_yolo.min_y <= grasp_y <= curr_yolo.Max_y:
                                 pub_Grasp.object_name = curr_yolo.object_name
                                 print("get match!!")
+                                pub_Grasp.x = grasp_x
+                                pub_Grasp.y = grasp_y
+                                pub_Grasp.angle = grasp_angle
+                                pub_Grasp.length = grasp_length
+                                pub_Grasp.width = grasp_width
+                                pub_Grasp.yolo_bbox_min_x = curr_yolo.min_x
+                                pub_Grasp.yolo_bbox_max_x = curr_yolo.Max_x
+                                pub_Grasp.yolo_bbox_min_y = curr_yolo.min_y
+                                pub_Grasp.yolo_bbox_max_y = curr_yolo.Max_y
+                                ggcnn_pub.publish(pub_Grasp)
                                 break
 
-                    pub_Grasp.x = grasp_x
-                    pub_Grasp.y = grasp_y
-                    pub_Grasp.angle = grasp_angle
-                    pub_Grasp.length = grasp_length
-                    pub_Grasp.width = grasp_width
-
-                    ggcnn_pub.publish(pub_Grasp)
+                    

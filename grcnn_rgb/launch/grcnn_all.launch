@@ -1,0 +1,23 @@
+<launch>
+	<include file="$(find realsense2_camera)/launch/rs_aligned_depth.launch">
+	</include>
+    <!--<node name="get_image_from_rs_d435i" pkg="get_rs_image" type="Get_Image.py" output="screen">
+    </node> -->
+    <arg name="network_param_file"         default="$(find darknet_ros)/config/yolov4_0618.yaml"/>
+    <!-- Include main launch file -->
+    <include file="$(find darknet_ros)/launch/darknet_ros.launch">
+    <arg name="network_param_file"    value="$(arg network_param_file)"/>
+    </include>
+
+    <!--<node name="get_image" pkg="get_rs_image" type="Get_Image.py"  /> -->
+    <node name="yolo_boundingboxes" pkg="yolo_detection" type="yolo_convert_ROI.py"   />  <!--output="screen"-->
+    
+	<node name="GRCNN_GRBD_node" pkg="grcnn_rgb" type="run_realtime.py" output="screen">
+        <param name="network"          value="$(find grcnn_rgb)/scripts/logs/210621_2154_training_cornell_0_12/epoch_20_iou_1.00" />
+        <param name="use-depth"           value="1" />
+        <param name="use-rgb"          value="1" />
+        <param name="n-grasps"           value="1" />
+        <param name="cpu"           value="False" />
+    </node>
+
+</launch>

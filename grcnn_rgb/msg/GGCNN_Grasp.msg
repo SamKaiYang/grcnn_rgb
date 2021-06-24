@@ -6,4 +6,8 @@ float32 length
 float32 width
 int32 yolo_bbox_center_x
 int32 yolo_bbox_center_y
+int32 yolo_bbox_min_x
+int32 yolo_bbox_max_x
+int32 yolo_bbox_min_y
+int32 yolo_bbox_max_y
 int32 yolo_bbox_s

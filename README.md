@@ -1,8 +1,12 @@
+# open all 
+```bash
+source venv/bin/activate
+roslaunch grcnn_rgb grcnn_all.launch
+```
+
 # realsense d435i and yolo v4
 terminal 1
 ```bash
-roslaunch realsense2_camera rs_rgbd.launch 
-or
 roslaunch realsense2_camera rs_aligned_depth.launch 
 ```
 terminal 2
@@ -17,3 +21,4 @@ terminal 3
 source venv/bin/activate
 rosrun grcnn_rgb run_realtime.py 
 ```
+# K-means

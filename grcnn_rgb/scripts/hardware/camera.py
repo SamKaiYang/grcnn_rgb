@@ -12,7 +12,7 @@ class RealSenseCamera:
                  device_id,
                  width=640,
                  height=480,
-                 fps=6):
+                 fps=60):
         self.device_id = device_id
         self.width = width
         self.height = height
