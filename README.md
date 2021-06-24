@@ -1,10 +1,10 @@
-# open all 
+# open all Tool selection strategy
 ```bash
 source venv/bin/activate
 roslaunch grcnn_rgb grcnn_all.launch
 ```
 
-# realsense d435i and yolo v4
+<!-- # realsense d435i and yolo v4
 terminal 1
 ```bash
 roslaunch realsense2_camera rs_aligned_depth.launch 
@@ -20,8 +20,8 @@ terminal 3
 ```bash
 source venv/bin/activate
 rosrun grcnn_rgb run_realtime.py 
-```
-# K-means 夾取工具選擇
+``` -->
+# K-means dataset
 ```bash
-rosrun grcnn_rgb kmeans.py 
+rosrun grcnn_rgb kmeans_dataset.py 
 ```

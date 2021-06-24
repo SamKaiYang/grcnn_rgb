@@ -19,5 +19,5 @@
         <param name="n-grasps"           value="1" />
         <param name="cpu"           value="False" />
     </node>
-
+    <node name="kmeans_node" pkg="grcnn_rgb" type="kmeans.py" output="screen"  />  <!--output="screen"-->
 </launch>
