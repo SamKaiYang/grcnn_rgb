@@ -7,6 +7,7 @@ from grcnn_rgb.msg import GGCNN_Grasp
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
+import joblib
 clf = KMeans(n_clusters=2)
 import cv2
 import csv
@@ -54,7 +55,8 @@ def kmeans_fit():
     #開始訓練！
     clf.fit(data_list)
     clf.fit_predict(data_list)
-    
+    # 儲存模型
+    joblib.dump(clf,path+'/grasp_kmeans.pkl')
 def grasp_collation():
     global grasp, grasp_area, Aspect_ratio, compare, bounding_area
     # grasp.length
@@ -85,14 +87,15 @@ def grasp_collation():
 def kmeans_predict():
     global clf, data_list
     global grasp, grasp_area, Aspect_ratio, compare, bounding_area
+    
+    # 載入模型
+    clf=joblib.load(path+'/grasp_kmeans.pkl')
     #這樣就可以取得預測結果了！
     # clf.labels_
     # print(clf.labels_)
-    # print(kmeans.predict([[0, 0], [4, 4]]))
-
     # print(kmeans.cluster_centers_)
     X = np.array([[grasp.width,bounding_area,Aspect_ratio,compare]])
-    print(X)
+    # print(X)
     # print("tool:",clf.predict(X))
     if clf.predict(X)==1:
         print("tool:suck")
@@ -103,9 +106,9 @@ if __name__ == '__main__':
     rospy.init_node('kmeans_node', anonymous=True)
     rospy.Subscriber("/object/Grasp_Detect", GGCNN_Grasp, get_Grasp)
     data_read()
-    kmeans_fit()
+    # kmeans_fit()# 訓練並儲存模型
     while not rospy.is_shutdown():
         grasp_collation()
-        kmeans_predict()
+        kmeans_predict()#預測
         time.sleep(0.5)
     

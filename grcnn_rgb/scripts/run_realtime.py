@@ -12,7 +12,7 @@ from hardware.camera import RealSenseCamera
 from hardware.device import get_device
 from inference.post_process import post_process_output
 from utils.data.camera_data import CameraData
-from utils.visualisation.plot import save_results, plot_results
+from utils.visualisation.plot import save_results, plot_results, plot_results_lose
 
 import rospy
 from grcnn_rgb.msg import GGCNN_Grasp
@@ -96,7 +96,7 @@ if __name__ == '__main__':
     # Get the compute device
     device = get_device(args.force_cpu)
     print("device ", device)
-    fig = plt.figure(figsize=(10, 10))
+    fig = plt.figure(figsize=(10, 5))
     
     while not rospy.is_shutdown():
         depth_image_raw = np.asarray(depth_image_raw, dtype=np.float32)
@@ -113,7 +113,7 @@ if __name__ == '__main__':
 
                 q_img, ang_img, width_img = post_process_output(pred['pos'], pred['cos'], pred['sin'], pred['width'])
                 
-                gs = plot_results(fig=fig,
+                gs = plot_results_lose(fig=fig,
                                 rgb_img=cam_data.get_rgb(rgb_image_raw, False),
                                 depth_img=np.squeeze(cam_data.get_depth(depth_image_raw)),
                                 grasp_q_img=q_img,
