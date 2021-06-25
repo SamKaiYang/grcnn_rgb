@@ -56,6 +56,18 @@ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optim
 # yolo v4 tiny
 wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
 ```
+### RealSense ROS package
+```bash
+cd <catkin_workspace>/src/
+git clone https://github.com/IntelRealSense/realsense-ros.git
+catkin_init_workspace 
+cd ..
+sudo apt install ros-melodic-rgbd-launch
+sudo apt-get install ros-melodic-ddynamic-reconfigure
+catkin_make clean
+catkin_make -DCATKIN_ENABLE_TESTING=False -DCMAKE_BUILD_TYPE=Release
+catkin_make install
+```
 ### Use realsense 
 ```bash
 cd darknet_ros/config
