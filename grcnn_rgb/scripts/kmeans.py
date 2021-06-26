@@ -4,6 +4,8 @@ import rospy
 import time
 import numpy as np
 from grcnn_rgb.msg import GGCNN_Grasp
+# from grcnn_rgb.msg import kmeans_output
+from grcnn_rgb.srv import kmeans_output, kmeans_outputResponse
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
@@ -23,7 +25,7 @@ compare = 0
 data_list = [] 
 
 camera_height = 38.5 #cm
-
+tool_select = ""
 def data_read():
     global data_list
     with open(path+'/kmeans.csv', "r", newline='') as csvfile:
@@ -33,7 +35,7 @@ def data_read():
             data_list.append([row['width'], row['bounding_area'], row['Aspect_ratio'], row['compare']])
         data_list = [[float(x) for x in row] for row in data_list] 
         data_list = np.array(data_list)
-        print(data_list)
+        # print(data_list)
 def data_append():
     global grasp, grasp_area, Aspect_ratio, compare, bounding_area
     with open(path+'/kmeans.csv', "a", newline='') as csvfile:
@@ -86,7 +88,7 @@ def grasp_collation():
 
 def kmeans_predict():
     global clf, data_list
-    global grasp, grasp_area, Aspect_ratio, compare, bounding_area
+    global grasp, grasp_area, Aspect_ratio, compare, bounding_area, tool_select
     
     # 載入模型
     clf=joblib.load(path+'/grasp_kmeans.pkl')
@@ -97,18 +99,44 @@ def kmeans_predict():
     X = np.array([[grasp.width,bounding_area,Aspect_ratio,compare]])
     # print(X)
     # print("tool:",clf.predict(X))
+    # kmeans_msg = kmeans_output()
     if clf.predict(X)==1:
-        print("tool:suck")
+        # print("tool:suck")
+        tool_select = "suck"
+        # kmeans_msg.tool_name = "suck"
+        # kmeans_msg.x = grasp.x
+        # kmeans_msg.y = grasp.y
+        # kmeans_msg.angle = grasp.angle
+        # pub.publish(kmeans_msg)
     elif clf.predict(X)==0:
-        print("tool:grasp")
+        # print("tool:3finger_grasp")
+        tool_select = "3finger_grasp"
+        # kmeans_msg.tool_name = "3finger_grasp"
+        # kmeans_msg.x = grasp.x
+        # kmeans_msg.y = grasp.y
+        # kmeans_msg.angle = grasp.angle
+        # pub.publish(kmeans_msg)
+
+def handle_kmeans(req):
+    global tool_select
+    if req.request == True:
+        resp = kmeans_outputResponse()
+        resp.tool_name = tool_select
+        resp.x = grasp.x
+        resp.y = grasp.y
+        resp.angle = grasp.angle
+        return resp
 
 if __name__ == '__main__':
+    kmeans_output
     rospy.init_node('kmeans_node', anonymous=True)
+    rospy.Service('kmeans', kmeans_output, handle_kmeans)
     rospy.Subscriber("/object/Grasp_Detect", GGCNN_Grasp, get_Grasp)
+    # pub = rospy.Publisher("/tool/kmeans_output", kmeans_output, queue_size=100)
     data_read()
     # kmeans_fit()# 訓練並儲存模型
     while not rospy.is_shutdown():
         grasp_collation()
         kmeans_predict()#預測
-        time.sleep(0.5)
+        # time.sleep(0.5)
     

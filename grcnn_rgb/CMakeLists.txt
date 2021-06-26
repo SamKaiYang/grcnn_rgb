@@ -55,14 +55,14 @@ add_message_files(
    ROI_array.msg
    GGCNN_Grasp.msg
    GGCNN_Grasp_array.msg
+  #  kmeans_output.msg
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  kmeans_output.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
