@@ -22,7 +22,7 @@ grasp_area = 0
 Aspect_ratio = 0
 bounding_area = 0
 compare = 0
-data_list = [] 
+data_list = []
 
 camera_height = 38.5 #cm
 tool_select = ""
@@ -128,7 +128,6 @@ def handle_kmeans(req):
         return resp
 
 if __name__ == '__main__':
-    kmeans_output
     rospy.init_node('kmeans_node', anonymous=True)
     rospy.Service('kmeans', kmeans_output, handle_kmeans)
     rospy.Subscriber("/object/Grasp_Detect", GGCNN_Grasp, get_Grasp)
